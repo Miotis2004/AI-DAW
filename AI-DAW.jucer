@@ -4,6 +4,12 @@
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
   <MAINGROUP id="DtuMXz" name="AI-DAW">
     <GROUP id="{0AFFC614-C026-09D2-4169-A0941D14CAF6}" name="Source">
+      <GROUP id="{8D3B2A1C-1234-5678-90AB-CDEF12345678}" name="Processors">
+        <FILE id="gnPROC" name="GainProcessor.h" compile="0" resource="0" file="Source/Processors/GainProcessor.h"/>
+        <FILE id="gnPROc" name="GainProcessor.cpp" compile="1" resource="0" file="Source/Processors/GainProcessor.cpp"/>
+      </GROUP>
+      <FILE id="auENGh" name="AudioEngine.h" compile="0" resource="0" file="Source/AudioEngine.h"/>
+      <FILE id="auENGc" name="AudioEngine.cpp" compile="1" resource="0" file="Source/AudioEngine.cpp"/>
       <FILE id="tJN99b" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
       <FILE id="WyrOqa" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
       <FILE id="CiKPys" name="MainComponent.cpp" compile="1" resource="0"

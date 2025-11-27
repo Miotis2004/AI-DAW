@@ -1,6 +1,7 @@
 #pragma once
 
 #include <JuceHeader.h>
+#include "AudioEngine.h"
 
 //==============================================================================
 /*
@@ -25,7 +26,7 @@ public:
 
 private:
     //==============================================================================
-    // Your private member variables go here...
+    AudioEngine audioEngine;
 
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
